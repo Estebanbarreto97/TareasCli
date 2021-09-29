@@ -3,5 +3,10 @@
 
 // OJO: lo que esté aquí no será tenido en cuenta
 // en la corrección ni reemplaza a los tests.
+package ar.edu.unahur.obj2.tareas
 
-listOf(1, 8, 10).average()
+import io.kotest.core.config.AbstractProjectConfig
+import io.kotest.core.spec.IsolationMode
+import io.kotest.core.spec.style.describeSpec
+import io.kotest.extensions.junitxml.JunitXmlReporter
+
